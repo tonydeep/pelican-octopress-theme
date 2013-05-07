@@ -63,6 +63,13 @@ Extra google plus options: default values are shown
 - ``GOOGLE_PLUS_ONE``: ``False`` show +1 button
 - ``GOOGLE_PLUS_HIDDEN``: ``False`` hide the google plus sidebar link.
 
+Search box options
+
+- ``SEARCH_BOX``: set to true to enable site search box
+- ``SITESEARCH``: [default: 'http://google.com/search'] search engine to which
+  search form should be pointed (optional)
+
+
 Contribute
 ----------
 
