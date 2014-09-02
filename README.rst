@@ -63,6 +63,13 @@ Extra google plus options (default values are shown):
 - ``GOOGLE_PLUS_ONE``: ``False`` show +1 button
 - ``GOOGLE_PLUS_HIDDEN``: ``False`` hide the google plus sidebar link.
 
+Google Analytics
+-------------
+
+- ``GOOGLE_ANALYTICS``: "UA-XXXX-YYYY" to activate Google Analytics(classic)
+- ``GOOGLE_UNIVERSAL_ANALYTICS``: "UA-XXXX-Y" to activate Google Universal Analytics
+- ``GOOGLE_UNIVERSAL_ANALYTICS_COOKIEDOMAIN``: ``'auto'`` optional cookie domain setting for Google Universal Analytics
+
 Sidebar image
 -------------
 
@@ -73,6 +80,19 @@ Sidebar image
 - ``SEARCH_BOX``: set to true to enable site search box
 - ``SITESEARCH``: [default: 'http://google.com/search'] search engine to which
   search form should be pointed (optional)
+  
+QR Code generation
+-------------
+
+- ``QR_CODE``: set to true to enable the qr code generation for articles and pages by browser
+
+FeedBurner integration
+----------------------
+
+- ``FEED_FEEDBURNER``: set this to the part of your FeedBurner URL after the ``http://feeds.feedburner.com/`` to set the
+  displayed feed URL to your FeedBurner URL. This also disables generation of the RSS and ATOM tags, regardless of whether
+  you've set the ``FEED_RSS`` or ``FEED_ATOM`` variables. This way, you can arbitrarily set your generated feed URL while
+  presenting your FeedBurner URL to your users.
 
 Contribute
 ----------
